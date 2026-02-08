@@ -2,6 +2,8 @@
 int main()
 {
 
+// Problem 1: Day Name Finder
+    
     int n;
     scanf("%d", &n);
 
@@ -36,4 +38,5 @@ int main()
     }
 
     return 0;
+
 }
