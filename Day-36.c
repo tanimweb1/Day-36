@@ -37,6 +37,59 @@ int main()
         break;
     }
 
+
+
+
+
+ //Problem 2: Simple Calculator
+
+    int a, b;
+    char oper;
+
+    printf("Enter the operator : ");
+    scanf("%c", &oper);
+
+    printf("Enter two numbers : ");
+    scanf("%d%d", &a, &b);
+
+    switch (oper)
+    {
+
+    case '+':
+        printf("%d + %d = %d", a, b, a + b);
+        break;
+    case '-':
+        printf("%d - %d = %d", a, b, a - b);
+        break;
+    case '/':
+        if (b != 0)
+        {
+            printf("%d / %d = %d", a, b, a / b);
+        }
+        else
+        {
+            printf("Not a valid number");
+        }
+        break;
+    case '*':
+        printf("%d * %d = %d", a, b, a * b);
+        break;
+    default:
+        printf("Invalid Operator");
+    }
+
+
+
+
+
+
+
+
+
+
+    
+
     return 0;
 
 }
+
