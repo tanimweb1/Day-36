@@ -182,38 +182,6 @@ default: printf("Invalid Month");
 
 
 
-    // Problem 5: Menu Based Program
-
-    int n;
-    printf("Enter any number 1-5 : ");
-    scanf("%d", &n);
-
-    switch (n)
-    {
-
-    case 1:
-        printf("Check balance\n");
-        break;
-
-    case 2:
-        printf("Deposit Balance\n");
-        break;
-
-    case 3:
-        printf("Withdraw Balance\n");
-        break;
-
-    case 4:
-        printf("Transfer Money\n");
-        break;
-
-    case 5:
-        printf("Exit\n");
-        break;
-
-    default:
-        printf("Not a valid number");
-    }
 
 
     
@@ -223,6 +191,7 @@ default: printf("Invalid Month");
     return 0;
 
 }
+
 
 
 
